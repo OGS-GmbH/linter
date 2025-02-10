@@ -9,6 +9,26 @@
   <p>This package provides custom linter rules 🛠️ to enforce consistent, high-quality code across projects ✨. It helps developers follow best practices, maintain readability, and catch potential issues early 🚀. Easy to integrate and highly configurable, it ensures a smooth and efficient development workflow ⚡.</p>
 </div>
 
+## Installation
+To get started, you can install this package using your preferred package manager.
+````shell
+npm install -D @ogs/linter
+````
+
+<details>
+<summary>Other package manager</summary>
+<br />
+
+````shell
+yarn add -D @ogs/linter
+````
+
+````shell
+pnpm install -D @ogs/linter
+````
+
+</details>
+
 ## License
 The MIT License (MIT) - Please have a look at the LICENSE file for more details.
 
