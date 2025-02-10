@@ -1,12 +1,17 @@
 {
 	"name": "@ogs/linter",
+  "description": "Custom linter rules 🛠️ to enforce consistent and clean code ✨. Designed for developers who prioritize quality and best practices 🚀.",
 	"version": "0.0.0",
 	"author": "OGS GmbH",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OGS-GmbH/linter.git"
   },
+  "keywords": [
+    "eslint", "static-code-analysis", "linter", "code-quality", "typescript-eslint"
+  ],
   "homepage": "https://github.com/OGS-GmbH/linter#readme",
+  "bugs": "https://github.com/OGS-GmbH/linter/issues",
   "contributors": [
     {
       "name": "Simon Kovtyk",
