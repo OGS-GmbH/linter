@@ -21,4 +21,5 @@ Feel free to submit a pull request or start a discussion — we're happy to coll
 
 <hr />
 <img src="https://www.ogs.de/fileadmin/templates/main/img/logo.png" width="96" />
-<a href="https://www.ogs.de/en/" target="_blank">Website</a> | <a href="https://www.ogs.de/en/contact/" target="_blank">Contact</a> | <a href="https://www.ogs.de/en/about-ogs/#Careers" target="_blank">Careers</a>
+<p>Gesellschaft für Datenverarbeitung und Systemberatung mbH</p>
+<a href="https://www.ogs.de/en/imprint/" target="_blank">Imprint</a> | <a href="https://www.ogs.de/en/contact/" target="_blank">Contact</a> | <a href="https://www.ogs.de/en/about-ogs/#Careers" target="_blank">Careers</a>
