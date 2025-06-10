@@ -15,3 +15,5 @@ jobs:
     secrets:
       GH_DEPLOY_TOKEN: ${{ secrets.GH_DEPLOY_TOKEN }}
       NPM_ORG_OGS_GMBH_CI: ${{ secrets.NPM_ORG_OGS_GMBH_CI }}
+    inputs:
+      release_please_config_file: ".release-please/main.json"

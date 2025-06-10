@@ -1,0 +1,19 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - "next"
+  workflow_dispatch:
+permissions:
+  id-token: write
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-npm-package-deploy:
+    uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-deploy.yml@main
+    secrets:
+      GH_DEPLOY_TOKEN: ${{ secrets.GH_DEPLOY_TOKEN }}
+      NPM_ORG_OGS_GMBH_CI: ${{ secrets.NPM_ORG_OGS_GMBH_CI }}
+    inputs:
+      release_please_config_file: ".release-please/next.json"
