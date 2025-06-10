@@ -12,3 +12,5 @@ permissions:
 jobs:
   call-npm-package-deploy:
     uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-deploy.yml@main
+    secrets:
+      GH_DEPLOY_TOKEN: ${{ secrets.GH_DEPLOY_TOKEN }}
