@@ -1,7 +1,7 @@
 {
 	"name": "@ogs/linter",
 	"version": "0.0.0",
-	"author": "Simon Kovtyk",
+	"author": "OGS GmbH",
 	"exports": {
 		".": {
 			"default": "./public-api.mjs"
@@ -91,22 +91,15 @@
 		}
 	},
 	"devDependencies": {
-		"@ogs/ci": "^2.0.1",
-		"cross-env": "^7.0.3",
-		"cross-spawn": "^7.0.6",
 		"esbuild": "^0.24.0",
 		"esbuild-plugin-file-copy": "2.0.0-next.0",
 		"esbuild-plugin-file-path-extensions": "^2.1.4",
 		"esbuild-plugin-package-json": "^2.0.0",
 		"fast-glob": "^3.3.2",
-		"semantic-release": "^24.2.0",
 		"typescript": "^5.7.2"
 	},
 	"scripts": {
-		"build:version": "node node_modules/@ogs/ci/release-script.mjs",
-		"script:build:version": "cross-env GITLAB_TOKEN=zJwMsGkAttRoMJaJoQdW HUSKY=0 semantic-release --no-ci",
-		"lint:commit": "commitlint --edit",
 		"build:dev": "node .esbuild/dev.mjs",
-		"build:prod": "node .esbuild/prod.mjs"
+		"ci:build:prod": "node .esbuild/prod.mjs"
 	}
 }
