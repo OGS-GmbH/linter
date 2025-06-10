@@ -37,17 +37,14 @@ const NODE_TS_RULES_PRESET: Record<string, unknown> = {
   ...SECURITY_RULES
 };
 
-const getAngularPreset = (options: Options): Record<string, unknown> => ({
-  ...ESLINT_RULES,
-  ...TSESLINT_RULES,
-  ...STYLISTIC_JS_RULES,
-  ...STYLISTIC_TS_RULES,
-  ...STYLISTIC_ADDITIONAL_RULES,
-  ...STYLISTIC_ADDITIONAL_RULES_TS_INCLUDED,
-  ...UNICORN_RULES,
-  ...ANGULAR_TEMPLATE_RULES,
+const getAngularTsPreset = (options: Options): Record<string, unknown> => ({
+  ...TS_RULES_PRESET,
   ...getAngularRules(options)
 });
+
+const ANGULAR_TEMPLATE_RULES_PRESET: Record<string, unknown> = {
+  ...ANGULAR_TEMPLATE_RULES
+};
 
 const SCSS_RULES_PRESET: Record<string, unknown> = {
   ...STYLELINT_RULES,
@@ -57,6 +54,9 @@ const SCSS_RULES_PRESET: Record<string, unknown> = {
 export {
   TS_RULES_PRESET,
   JS_RULES_PRESET,
-  getAngularPreset,
-  SCSS_RULES_PRESET
+  SCSS_RULES_PRESET,
+  NODE_JS_RULES_PRESET,
+  NODE_TS_RULES_PRESET,
+  getAngularTsPreset,
+  ANGULAR_TEMPLATE_RULES_PRESET
 };
