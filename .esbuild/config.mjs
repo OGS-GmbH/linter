@@ -1,10 +1,9 @@
-import * as esbuild from "esbuild";
 import fastGlob from "fast-glob";
 import { esbuildPluginFilePathExtensions } from "esbuild-plugin-file-path-extensions";
 import { packageJsonPlugin } from "esbuild-plugin-package-json";
 import { fileCopyPlugin } from "esbuild-plugin-file-copy";
 
-await esbuild.build({
+const getConfig = (pathToDist) => ({
   bundle: true,
   platform: "node",
   target: "node23",
@@ -28,6 +27,9 @@ await esbuild.build({
         }
       ]
     })
-  ],
-  outdir: "dist"
+  ]
 });
+
+export {
+  getConfig
+};

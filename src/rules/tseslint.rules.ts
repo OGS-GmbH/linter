@@ -42,7 +42,6 @@ const TSESLINT_RULES: Record<string, unknown> = {
   "@tseslint/no-for-in-array": "error",
   "@tseslint/no-implied-eval": "error",
   "@tseslint/no-invalid-void-type": "error",
-  "@tseslint/no-meaningless-void-operator": "error",
   "@tseslint/no-misused-new": "error",
   "@tseslint/no-misused-promises": "error",
   "@tseslint/no-mixed-enums": "error",

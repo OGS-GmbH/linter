@@ -1,32 +1,14 @@
 {
 	"name": "@ogs/linter",
-  "description": "Custom linter rules 🛠️ to enforce consistent and clean code ✨. Designed for developers who prioritize quality and best practices 🚀.",
 	"version": "0.0.0",
-	"author": "OGS GmbH",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OGS-GmbH/linter.git"
-  },
-  "keywords": [
-    "eslint", "static-code-analysis", "linter", "code-quality", "typescript-eslint"
-  ],
-  "homepage": "https://github.com/OGS-GmbH/linter#readme",
-  "bugs": "https://github.com/OGS-GmbH/linter/issues",
-  "contributors": [
-    {
-      "name": "Simon Kovtyk",
-      "email": "simon@kovtyk.com",
-      "url": "https://simonkov.dev"
-    }
-  ],
-  "license": "MIT",
+	"author": "Simon Kovtyk",
 	"exports": {
 		".": {
 			"default": "./public-api.mjs"
 		}
 	},
 	"publishConfig": {
-		"directory": "dist"
+		"directory": "dist/prod"
 	},
 	"peerDependencies": {
 		"@commitlint/cli": "^19.5.0",
@@ -121,7 +103,10 @@
 		"typescript": "^5.7.2"
 	},
 	"scripts": {
+		"build:version": "node node_modules/@ogs/ci/release-script.mjs",
+		"script:build:version": "cross-env GITLAB_TOKEN=zJwMsGkAttRoMJaJoQdW HUSKY=0 semantic-release --no-ci",
 		"lint:commit": "commitlint --edit",
-		"build": "node .esbuild/build.mjs"
+		"build:dev": "node .esbuild/dev.mjs",
+		"build:prod": "node .esbuild/prod.mjs"
 	}
 }
