@@ -1,0 +1,10 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - "main"
+  workflow_dispatch:
+
+jobs:
+  call-npm-package-deploy:
+    uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-deploy.yml@1
