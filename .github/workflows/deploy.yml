@@ -4,6 +4,10 @@ on:
     branches:
       - "main"
   workflow_dispatch:
+permissions:
+  id-token: write
+  contents: write
+  pull-requests: write
 
 jobs:
   call-npm-package-deploy:
