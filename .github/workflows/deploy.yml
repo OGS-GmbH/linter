@@ -11,4 +11,4 @@ permissions:
 
 jobs:
   call-npm-package-deploy:
-    uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-deploy.yml
+    uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-deploy.yml@main
