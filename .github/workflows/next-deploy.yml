@@ -16,4 +16,5 @@ jobs:
       GH_DEPLOY_TOKEN: ${{ secrets.GH_DEPLOY_TOKEN }}
       NPM_ORG_OGS_GMBH_CI: ${{ secrets.NPM_ORG_OGS_GMBH_CI }}
     with:
-      release_please_config_file: ".release-please/next.json"
+      release_please_config_file: ".release-please/next-config.json"
+      release_please_manifest_file: ".release-please/next-manifest.json"
