@@ -1,13 +1,10 @@
-<div align="center">
-  <a href="https://www.ogs.de/en/"><img src="https://www.ogs.de/fileadmin/templates/main/img/logo.png" width="128" /></a>
-  <h1>Linter</h1>
+# Linter
 
-  ![GitHub License](https://img.shields.io/github/license/OGS-GmbH/linter)
-  ![NPM Version](https://img.shields.io/npm/v/%40ogs%2Flinter)
-  ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/OGS-GmbH/linter/deploy)
+![GitHub License](https://img.shields.io/github/license/OGS-GmbH/linter)
+![NPM Version](https://img.shields.io/npm/v/%40ogs%2Flinter)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/OGS-GmbH/linter/deploy)
 
-  <p>This package provides custom linter rules to enforce consistent, high-quality code across projects. It helps developers follow best practices, maintain readability, and catch potential issues early. Easy to integrate and highly configurable, it ensures a smooth and efficient development workflow.</p>
-</div>
+This package provides custom linter rules to enforce consistent, high-quality code across projects. It helps developers follow best practices, maintain readability, and catch potential issues early. Easy to integrate and highly configurable, it ensures a smooth and efficient development workflow.
 
 ## Installation
 To get started, you can install this package using your preferred package manager.
@@ -39,7 +36,9 @@ If you're unsure where to start, check the open issues for guidance. Even small 
 
 Feel free to submit a pull request or start a discussion — we're happy to collaborate!
 
-<hr />
-<a href="https://www.ogs.de/en/"><img src="https://www.ogs.de/fileadmin/templates/main/img/logo.png" width="96" /></a>
+---
+
+<a href="https://www.ogs.de/en/"><img src="https://www.ogs.de/fileadmin/templates/main/img/logo.png" height="32" /></a>
 <p>Gesellschaft für Datenverarbeitung und Systemberatung mbH</p>
-<a href="https://www.ogs.de/en/imprint/">Imprint</a> | <a href="https://www.ogs.de/en/contact/">Contact</a> | <a href="https://www.ogs.de/en/about-ogs/#Careers">Careers</a>
+
+[Imprint](https://www.ogs.de/en/imprint/) | [Contact](https://www.ogs.de/en/contact/) | [Careers](https://www.ogs.de/en/about-ogs/#Careers)
