@@ -1,8 +1,8 @@
 # Linter
 
 ![GitHub License](https://img.shields.io/github/license/OGS-GmbH/linter)
-![NPM Version](https://img.shields.io/npm/v/%40ogs%2Flinter)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/OGS-GmbH/linter/deploy)
+![NPM Version](https://img.shields.io/npm/v/%40ogs-gmbh%2Flinter)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/OGS-GmbH/linter/main-deploy.yml)
 
 This package provides custom linter rules to enforce consistent, high-quality code across projects. It helps developers follow best practices, maintain readability, and catch potential issues early. Easy to integrate and highly configurable, it ensures a smooth and efficient development workflow.
 
