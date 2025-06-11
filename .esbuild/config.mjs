@@ -20,10 +20,14 @@ const getConfig = (pathToDist) => ({
     }),
     packageJsonPlugin(),
     fileCopyPlugin({
-      globs: [
+      inputs: [
         {
-          from: "public/**",
-          to: pathToDist
+          from: "README.md",
+          to: `${pathToDist}/README.md`
+        },
+        {
+          from: "CHANGELOG.md",
+          to: `${pathToDist}/CHANGELOG.md`
         }
       ]
     })

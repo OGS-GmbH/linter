@@ -7,7 +7,7 @@ const getAngularRules = (options: Options): Record<string, unknown> => ({
 	"@angular/no-duplicates-in-metadata-arrays": "error",
 	"@angular/prefer-on-push-component-change-detection": "warn",
 	"@angular/prefer-output-readonly": "error",
-	"@angular/directive-selector": [ "error", { "type": "element", "prefix": options.selectorPrefix, "style": "kebab-case" } ],
+	"@angular/directive-selector": [ "error", { "type": "element", "prefix": options.selectorPrefix, "style": "camelCase" } ],
 	"@angular/component-selector": [ "error", { "type": "element", "prefix": options.selectorPrefix, "style": "kebab-case" } ],
 });
 

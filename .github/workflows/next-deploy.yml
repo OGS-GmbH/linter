@@ -18,3 +18,4 @@ jobs:
     with:
       release_please_config_file: ".release-please/next-config.json"
       release_please_manifest_file: ".release-please/next-manifest.json"
+      release_please_target_branch: "next"
