@@ -9,7 +9,7 @@ This package provides custom linter rules to enforce consistent, high-quality co
 ## Installation
 To get started, you can install this package using your preferred package manager.
 ````shell
-npm install -D @ogs/linter
+npm install -D @ogs-gmbh/linter
 ````
 
 <details>
@@ -17,11 +17,11 @@ npm install -D @ogs/linter
 <br />
 
 ````shell
-yarn add -D @ogs/linter
+yarn add -D @ogs-gmbh/linter
 ````
 
 ````shell
-pnpm install -D @ogs/linter
+pnpm install -D @ogs-gmbh/linter
 ````
 
 </details>
