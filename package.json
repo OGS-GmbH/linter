@@ -7,9 +7,9 @@
 			"default": "./public-api.mjs"
 		}
 	},
-  "repository": {
-    "url": "https://github.com/OGS-GmbH/linter"
-  },
+	"repository": {
+		"url": "https://github.com/OGS-GmbH/linter"
+	},
 	"publishConfig": {
 		"directory": "dist/prod"
 	},
