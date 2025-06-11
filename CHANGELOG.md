@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/OGS-GmbH/linter/compare/v1.2.0...v1.2.1) (2025-06-11)
+
+
+### Bug Fixes
+
+* **angular-eslint:** no enforce of directive selector as element ([#14](https://github.com/OGS-GmbH/linter/issues/14)) ([802e664](https://github.com/OGS-GmbH/linter/commit/802e66496d7a801501dddd69a891e87163ed0555))
+
 ## [1.2.0](https://github.com/OGS-GmbH/linter/compare/v1.1.0...v1.2.0) (2025-06-11)
 
 
