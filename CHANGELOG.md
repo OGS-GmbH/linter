@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.0 (2025-06-11)
+
+
+### Features
+
+* added various improvements ([5699232](https://github.com/OGS-GmbH/linter/commit/56992320e7838339a13015bf90c598b640cbe510))
+* init ([5699232](https://github.com/OGS-GmbH/linter/commit/56992320e7838339a13015bf90c598b640cbe510))
+
+
+### Bug Fixes
+
+* **angular:** directive selector camel case ([b094821](https://github.com/OGS-GmbH/linter/commit/b09482138d484fa80bde62c0064103304f4c10aa))
+
 ## [1.1.0](https://github.com/OGS-GmbH/linter/compare/linter-v1.0.0...linter-v1.1.0) (2025-06-11)
 
 
