@@ -27,7 +27,7 @@ pnpm install -D @ogs/linter
 </details>
 
 ## License
-The MIT License (MIT) - Please have a look at the LICENSE file for more details.
+The MIT License (MIT) - Please have a look at the [LICENSE file](https://github.com/OGS-GmbH/linter/blob/main/LICENSE) for more details.
 
 ## Contributing
 Contributions are always welcome and greatly appreciated. Whether you want to report a bug, suggest a new feature, or improve the documentation, your input helps make the project better for everyone.
