@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/OGS-GmbH/linter/compare/v1.1.0...v1.2.0) (2025-06-11)
+
+
+### Features
+
+* added various improvements ([5699232](https://github.com/OGS-GmbH/linter/commit/56992320e7838339a13015bf90c598b640cbe510))
+* init ([5699232](https://github.com/OGS-GmbH/linter/commit/56992320e7838339a13015bf90c598b640cbe510))
+
 ## 1.1.0 (2025-06-11)
 
 
