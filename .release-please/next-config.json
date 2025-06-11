@@ -4,7 +4,9 @@
     ".": {
       "release-type": "node",
       "prerelease": true,
-      "prerelease-type": "next"
+      "prerelease-type": "next",
+      "include-component-in-tag": false,
+      "always-update": true
     }
   }
 }
