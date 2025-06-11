@@ -7,6 +7,8 @@
 			"default": "./public-api.mjs"
 		}
 	},
+  "homepage": "https://github.com/OGS-GmbH/linter",
+  "license": "MIT",
   "repository": {
     "url": "https://github.com/OGS-GmbH/linter"
   },
