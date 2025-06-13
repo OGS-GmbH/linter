@@ -1,5 +1,6 @@
 {
 	"name": "@ogs-gmbh/linter",
+  "description": "This repository contains custom linter rules to ensure consistent and clean code. Optimized for developers who prioritize quality and best practices.",
 	"version": "1.2.1",
 	"author": "OGS GmbH",
 	"exports": {
@@ -7,9 +8,17 @@
 			"default": "./public-api.mjs"
 		}
 	},
-	"homepage": "https://github.com/OGS-GmbH/linter",
+	"homepage": "https://github.com/OGS-GmbH/linter?tab=readme-ov-file",
 	"license": "MIT",
+	"keywords": [
+		"eslint",
+		"static-code-analysis",
+		"linter",
+		"code-quality",
+		"typescript-eslint"
+	],
 	"repository": {
+    "type": "git",
 		"url": "https://github.com/OGS-GmbH/linter"
 	},
 	"publishConfig": {
@@ -105,6 +114,9 @@
 	},
 	"scripts": {
 		"build:dev": "node .esbuild/dev.mjs",
-		"ci:build:prod": "node .esbuild/prod.mjs"
+		"ci:build:main:production": "node .esbuild/prod.mjs",
+		"ci:pr:lint:main:eslint": "eslint .",
+		"ci:pr:commitlint:main:commitlint": "commitlint",
+		"prepare": "husky"
 	}
 }
