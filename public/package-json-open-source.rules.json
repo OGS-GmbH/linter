@@ -97,7 +97,7 @@
     "require-keywords": "error",
     "require-license": "error",
     "valid-values-name-scope": [ "error", [
-        "@ogs"
+        "@ogs-gmbh"
     ] ]
   }
 }
