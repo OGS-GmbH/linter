@@ -1,7 +1,7 @@
 {
 	"name": "@ogs-gmbh/linter",
+	"version": "1.3.0",
   "description": "This repository contains custom linter rules to ensure consistent and clean code. Optimized for developers who prioritize quality and best practices.",
-	"version": "1.2.1",
 	"author": "OGS GmbH",
 	"exports": {
 		".": {
