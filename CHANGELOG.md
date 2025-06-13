@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.1](https://github.com/OGS-GmbH/linter/compare/v1.3.0...v1.3.1) (2025-06-13)
+
+
+### Bug Fixes
+
+* added package json include ([d8f08e8](https://github.com/OGS-GmbH/linter/commit/d8f08e87b1cb51ed790f06850f1d9065c43b8785))
+* added package json include ([58d911e](https://github.com/OGS-GmbH/linter/commit/58d911ec33af7b80b32227ae54216c749ed7f6dc))
+
 ## [1.3.0](https://github.com/OGS-GmbH/linter/compare/v1.2.1...v1.3.0) (2025-06-13)
 
 
