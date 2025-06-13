@@ -1,6 +1,6 @@
 {
 	"name": "@ogs-gmbh/linter",
-  "description": "This repository contains custom linter rules to ensure consistent and clean code. Optimized for developers who prioritize quality and best practices.",
+	"description": "This repository contains custom linter rules to ensure consistent and clean code. Optimized for developers who prioritize quality and best practices.",
 	"version": "1.2.1",
 	"author": "OGS GmbH",
 	"exports": {
@@ -18,7 +18,7 @@
 		"typescript-eslint"
 	],
 	"repository": {
-    "type": "git",
+		"type": "git",
 		"url": "https://github.com/OGS-GmbH/linter"
 	},
 	"publishConfig": {
