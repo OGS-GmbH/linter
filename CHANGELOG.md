@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/OGS-GmbH/linter/compare/v1.3.1...v1.3.2) (2025-06-13)
+
+
+### Bug Fixes
+
+* **package-json-lint:** open source package prefix ([1333ce5](https://github.com/OGS-GmbH/linter/commit/1333ce564829b3b4ae0a09f66499dd0a19a1e5ae))
+
 ## [1.3.1](https://github.com/OGS-GmbH/linter/compare/v1.3.0...v1.3.1) (2025-06-13)
 
 
