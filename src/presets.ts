@@ -7,6 +7,7 @@ import { UNICORN_RULES } from "./rules/unicorn.rules";
 import { SECURITY_RULES } from "./rules/security.rules";
 import { ANGULAR_TEMPLATE_RULES, getAngularRules, STYLELINT_RULES, STYLELINT_SCSS_RULES } from "./public-api";
 import { Options } from "./types/anguler-rules.type";
+import { JSDOC_RULES, JSDOC_RULES_TS_EXCLUDED, JSDOC_RULES_TS_INCLUDED } from "./rules/jsdoc.rules";
 
 const JS_RULES_PRESET: Record<string, unknown> = {
   ...ESLINT_RULES,
@@ -39,6 +40,7 @@ const NODE_TS_RULES_PRESET: Record<string, unknown> = {
 
 const getAngularTsPreset = (options: Options): Record<string, unknown> => ({
   ...TS_RULES_PRESET,
+  ...ANGULAR_TEMPLATE_RULES_PRESET,
   ...getAngularRules(options)
 });
 
@@ -51,6 +53,16 @@ const SCSS_RULES_PRESET: Record<string, unknown> = {
   ...STYLELINT_SCSS_RULES
 }
 
+const JSDOC_TS_RULES_PRESET: Record<string, unknown> = {
+  ...JSDOC_RULES,
+  ...JSDOC_RULES_TS_INCLUDED
+}
+
+const JSDOC_JS_RULES_PRESET: Record<string, unknown> = {
+  ...JSDOC_RULES,
+  ...JSDOC_RULES_TS_EXCLUDED
+}
+
 export {
   TS_RULES_PRESET,
   JS_RULES_PRESET,
@@ -58,5 +70,7 @@ export {
   NODE_JS_RULES_PRESET,
   NODE_TS_RULES_PRESET,
   getAngularTsPreset,
-  ANGULAR_TEMPLATE_RULES_PRESET
+  ANGULAR_TEMPLATE_RULES_PRESET,
+  JSDOC_JS_RULES_PRESET,
+  JSDOC_TS_RULES_PRESET
 };

@@ -2,6 +2,7 @@ import fastGlob from "fast-glob";
 import { esbuildPluginFilePathExtensions } from "esbuild-plugin-file-path-extensions";
 import { packageJsonPlugin } from "esbuild-plugin-package-json";
 import { fileCopyPlugin } from "esbuild-plugin-file-copy";
+import { dtsPlugin } from "esbuild-plugin-d.ts";
 
 const getConfig = (pathToDist) => ({
   bundle: true,
@@ -15,6 +16,7 @@ const getConfig = (pathToDist) => ({
   },
   entryPoints: fastGlob.sync("./src/**/*.ts"),
   plugins: [
+    dtsPlugin(),
     esbuildPluginFilePathExtensions({
       esm: true
     }),

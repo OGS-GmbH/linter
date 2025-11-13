@@ -21,8 +21,15 @@ const TSESLINT_RULES: Record<string, unknown> = {
   "@tseslint/max-params": [ "error", {
     "max": 4
   } ],
-  /* "@tseslint/member-ordering": "warn", */
-  "@tseslint/method-signature-style": "error",
+  "@tseslint/member-ordering": [ "error", {
+    "default": [
+      "field",
+      "constructor",
+      "method",
+      "signature"
+    ]
+  } ],
+  "@tseslint/method-signature-style": ["error", "method"],
   "@tseslint/no-array-constructor": "error",
   "@tseslint/no-array-delete": "error",
   "@tseslint/no-confusing-void-expression": [ "error", {
@@ -117,7 +124,6 @@ const TSESLINT_RULES: Record<string, unknown> = {
   "@tseslint/prefer-nullish-coalescing": "error",
   "@tseslint/prefer-optional-chain": "error",
   "@tseslint/prefer-promise-reject-errors": "error",
-  "@tseslint/prefer-readonly-parameter-types": "warn",
   "@tseslint/prefer-reduce-type-parameter": "error",
   "@tseslint/prefer-regexp-exec": "error",
   "@tseslint/prefer-return-this-type": "error",

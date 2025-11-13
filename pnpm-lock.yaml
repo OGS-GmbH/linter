@@ -69,6 +69,9 @@ importers:
       esbuild:
         specifier: ^0.24.0
         version: 0.24.0
+      esbuild-plugin-d.ts:
+        specifier: ^1.3.1
+        version: 1.3.1(typescript@5.7.2)
       esbuild-plugin-file-copy:
         specifier: 2.0.0-next.0
         version: 2.0.0-next.0
@@ -895,6 +898,11 @@ packages:
     resolution: {integrity: sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==}
     engines: {node: '>=8'}
 
+  dts-bundle-generator@9.5.1:
+    resolution: {integrity: sha512-DxpJOb2FNnEyOzMkG11sxO2dmxPjthoVWxfKqWYJ/bI/rT1rvTMktF5EKjAYrRZu6Z6t3NhOUZ0sZ5ZXevOfbA==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
@@ -923,6 +931,12 @@ packages:
 
   error-ex@1.3.2:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
+
+  esbuild-plugin-d.ts@1.3.1:
+    resolution: {integrity: sha512-is6W2FalyN5CFMMSNB6k6wIxTw5MGakQVN8+aCnF1g5mwQ21c/IkjgEkwlZy8GyLErmrTY1xympl+HPHtJw8DQ==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      typescript: '*'
 
   esbuild-plugin-file-copy@2.0.0-next.0:
     resolution: {integrity: sha512-Sb/Dm9qURJ65P8r+lm4pZ+iVuCj/i8bKZ3Eyym4EiaYPyuboLo3WWbk+9DkhLtiQ5OzO4E8fnji13bkCLtj9Ow==}
@@ -3054,6 +3068,11 @@ snapshots:
     dependencies:
       is-obj: 2.0.0
 
+  dts-bundle-generator@9.5.1:
+    dependencies:
+      typescript: 5.7.2
+      yargs: 17.7.2
+
   eastasianwidth@0.2.0: {}
 
   electron-to-chromium@1.5.72: {}
@@ -3073,6 +3092,14 @@ snapshots:
   error-ex@1.3.2:
     dependencies:
       is-arrayish: 0.2.1
+
+  esbuild-plugin-d.ts@1.3.1(typescript@5.7.2):
+    dependencies:
+      chalk: 4.1.2
+      dts-bundle-generator: 9.5.1
+      lodash.merge: 4.6.2
+      type-fest: 4.30.0
+      typescript: 5.7.2
 
   esbuild-plugin-file-copy@2.0.0-next.0:
     dependencies:
