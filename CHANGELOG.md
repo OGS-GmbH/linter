@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/OGS-GmbH/linter/compare/v1.3.2...v1.4.0) (2025-11-13)
+
+
+### Features
+
+* add jsdoc and minor tweaks ([693007f](https://github.com/OGS-GmbH/linter/commit/693007fdd86e263337e5f734c63ee2bcf8f2381b))
+
 ## [1.3.2](https://github.com/OGS-GmbH/linter/compare/v1.3.1...v1.3.2) (2025-06-13)
 
 
