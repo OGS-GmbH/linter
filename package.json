@@ -1,11 +1,11 @@
 {
 	"name": "@ogs-gmbh/linter",
 	"description": "This repository contains custom linter rules to ensure consistent and clean code. Optimized for developers who prioritize quality and best practices.",
-	"version": "1.3.2",
+	"version": "1.4.0",
 	"author": "OGS GmbH",
 	"exports": {
 		".": {
-      "types": "./public-api.d.ts",
+			"types": "./public-api.d.ts",
 			"default": "./public-api.mjs"
 		}
 	},
@@ -45,7 +45,7 @@
 		"stylelint": "^16",
 		"stylelint-scss": "^6",
 		"typescript-eslint": "^8",
-    "eslint-plugin-jsdoc": "^61"
+		"eslint-plugin-jsdoc": "^61"
 	},
 	"peerDependenciesMeta": {
 		"eslint": {
