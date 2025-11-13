@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.5.0](https://github.com/OGS-GmbH/linter/compare/v1.4.0...v1.5.0) (2025-11-13)
+
+
+### Features
+
+* add jsdoc and minor tweaks ([693007f](https://github.com/OGS-GmbH/linter/commit/693007fdd86e263337e5f734c63ee2bcf8f2381b))
+* added various improvements ([5699232](https://github.com/OGS-GmbH/linter/commit/56992320e7838339a13015bf90c598b640cbe510))
+* init ([5699232](https://github.com/OGS-GmbH/linter/commit/56992320e7838339a13015bf90c598b640cbe510))
+
+
+### Bug Fixes
+
+* added package json include ([d8f08e8](https://github.com/OGS-GmbH/linter/commit/d8f08e87b1cb51ed790f06850f1d9065c43b8785))
+* added package json include ([58d911e](https://github.com/OGS-GmbH/linter/commit/58d911ec33af7b80b32227ae54216c749ed7f6dc))
+* **package-json-lint:** open source package prefix ([1333ce5](https://github.com/OGS-GmbH/linter/commit/1333ce564829b3b4ae0a09f66499dd0a19a1e5ae))
+
 ## [1.4.0](https://github.com/OGS-GmbH/linter/compare/v1.3.2...v1.4.0) (2025-11-13)
 
 
