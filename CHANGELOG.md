@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/OGS-GmbH/linter/compare/v1.5.0...v1.5.1) (2025-11-18)
+
+
+### Bug Fixes
+
+* **angular-template-rules:** remove rule that is only available from version 20.2.0 onwards ([#24](https://github.com/OGS-GmbH/linter/issues/24)) ([7c573e1](https://github.com/OGS-GmbH/linter/commit/7c573e17a9781b64932abee5cbe39810e27ece07))
+
 ## [1.5.0](https://github.com/OGS-GmbH/linter/compare/v1.4.0...v1.5.0) (2025-11-13)
 
 
