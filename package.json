@@ -117,9 +117,10 @@
     "esbuild-plugin-package-json": "^2",
     "fast-glob": "^3",
     "typedoc": "^0.28.14",
+    "typedoc-plugin-markdown": "^4.9.0",
     "typescript": "^5",
     "vitepress": "^1",
-    "typedoc-plugin-markdown": "^4.9.0"
+    "vitepress-plugin-group-icons": "^1.6.5"
   },
   "scripts": {
     "ci:build:main:production": "node .esbuild/build.mjs",

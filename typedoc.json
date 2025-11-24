@@ -1,5 +1,5 @@
 {
-  "$schema": "https://typedoc.org/schema.json",
+  "$schema": "https://typedoc-plugin-markdown.org/schema.json",
   "out": "dist/typedoc",
   "name": "Home",
   "includeVersion": true,
@@ -15,13 +15,22 @@
   "modulesFileName": "modules.md",
   "mergeReadme": true,
   "hidePageHeader": true,
+  "hideBreadcrumbs": true,
+  "hidePageTitle": false,
+  "pageTitleTemplates": {
+    "index": "Reference",
+    "member": "{name}",
+    "module": "{name}"
+  },
+  "useCustomAnchors": false,
   "readme": "none",
-  "indexFormat": "table",
+  "useCodeBlocks": true,
+  "indexFormat": "list",
   "parametersFormat": "table",
   "interfacePropertiesFormat": "table",
   "classPropertiesFormat": "table",
   "enumMembersFormat": "table",
-  "router": "kind-dir",
+  "router": "kind",
   "navigation": {
     "includeCategories": true,
     "includeGroups": true,
