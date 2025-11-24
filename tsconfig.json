@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "dist/tsc",
+    "outDir": "dist",
 		"allowSyntheticDefaultImports": true,
 		"module": "esnext",
 		"target": "esnext",

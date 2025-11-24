@@ -1,0 +1,36 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "out": "dist/typedoc",
+  "name": "Home",
+  "includeVersion": true,
+  "entryPoints": ["src/public-api.ts"],
+  "entryPointStrategy": "expand",
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "plugin": [
+    "typedoc-plugin-markdown"
+  ],
+  "lang": "en",
+  "entryFileName": "index.md",
+  "modulesFileName": "modules.md",
+  "mergeReadme": true,
+  "hidePageHeader": true,
+  "readme": "none",
+  "indexFormat": "table",
+  "parametersFormat": "table",
+  "interfacePropertiesFormat": "table",
+  "classPropertiesFormat": "table",
+  "enumMembersFormat": "table",
+  "router": "kind-dir",
+  "navigation": {
+    "includeCategories": true,
+    "includeGroups": true,
+    "includeFolders": true,
+    "compactFolders": false,
+    "excludeReferences": true
+  },
+  "categorizeByGroup": false,
+  "githubPages": true,
+  "hideGenerator": true,
+  "searchInComments": true
+}
