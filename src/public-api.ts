@@ -12,3 +12,4 @@ export * from "./rules/angular.rules";
 export * from "./rules/angular-template.rules";
 export * from "./rules/stylelint.rules";
 export * from "./rules/stylelint-scss.rules";
+export * from "./rules/tseslint-naming-convention.rules";
