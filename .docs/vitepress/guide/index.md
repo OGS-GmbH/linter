@@ -28,12 +28,10 @@ $ bun add -D @ogs-gmbh/linter
 
 :::
 
-After running the command successfully, the linter can become configured.
+The linter gets configured after the command has been run successfully.
 
 ### Configure
 
 Each preset requires a given set of dependencies to supply rules to their linter, before getting it to work.
 
-#### Dependencies
-
-We provide a dependency graph to figure out your needed dependencies quickly.
+Check out our setup guides. They provide step-by-step instructions on how to configure each linter for specific tasks.

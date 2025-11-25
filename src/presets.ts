@@ -48,6 +48,10 @@ const ANGULAR_TEMPLATE_RULES_PRESET: Record<string, unknown> = {
   ...ANGULAR_TEMPLATE_RULES
 };
 
+const CSS_RULES_PRESET: Record<string, unknown> = {
+  ...STYLELINT_RULES
+}
+
 const SCSS_RULES_PRESET: Record<string, unknown> = {
   ...STYLELINT_RULES,
   ...STYLELINT_SCSS_RULES
@@ -66,6 +70,7 @@ const JSDOC_JS_RULES_PRESET: Record<string, unknown> = {
 export {
   TS_RULES_PRESET,
   JS_RULES_PRESET,
+  CSS_RULES_PRESET,
   SCSS_RULES_PRESET,
   NODE_JS_RULES_PRESET,
   NODE_TS_RULES_PRESET,
