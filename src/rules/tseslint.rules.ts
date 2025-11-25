@@ -1,3 +1,9 @@
+/**
+ * @readonly
+ * @description typescript-eslint preset rules for ESLint
+ *
+ * @since 1.0.0
+ */
 const TSESLINT_RULES: Record<string, unknown> = {
   "@tseslint/adjacent-overload-signatures": "error",
   "@tseslint/array-type": [ "error", {

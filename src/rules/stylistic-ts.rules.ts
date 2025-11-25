@@ -1,3 +1,9 @@
+/**
+ * @readonly
+ * @description Stylistic (ts) preset rules for ESLint
+ *
+ * @since 1.0.0
+ */
 const STYLISTIC_TS_RULES: Record<string, unknown> = {
   "@stylistic/ts/block-spacing": [ "error", "always" ],
   "@stylistic/ts/brace-style": "error",
