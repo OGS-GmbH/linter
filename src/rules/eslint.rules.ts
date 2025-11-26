@@ -1,8 +1,9 @@
 /**
+ * JavaScript preset rules for ESLint
  * @readonly
- * @description JavaScript preset rules for ESLint
  *
  * @since 1.0.0
+ * @author Simon Kovtyk
  */
 const ESLINT_RULES: Record<string, unknown> = {
   "array-callback-return": [ "error", {
@@ -178,11 +179,12 @@ const ESLINT_RULES: Record<string, unknown> = {
 };
 
 /**
+ * JavaScript preset rules for ESLint, that will be overridden by typescript-eslint
  * @readonly
- * @constant JavaScript preset rules for ESLint, that will be overridden by typescript-eslint
- * @remark Do not use in TypeScript code bases
+ * @remarks Do not use in TypeScript code bases
  *
  * @since 1.0.0
+ * @author Simon Kovtyk
  */
 const ESLINT_RULES_TS_EXTENDED: Record<string, unknown> = {
   "class-methods-use-this": "error",
@@ -226,11 +228,12 @@ const ESLINT_RULES_TS_EXTENDED: Record<string, unknown> = {
 };
 
 /**
- * @description Get ESLint rules based on filters
+ * Get ESLint rules based on filters
  * @param usageForTypescript - Whether the rules will be used for linting TypeScript or not
  * @returns Preset of ESLint rules
  *
  * @since 1.0.0
+ * @author Simon Kovtyk
  */
 const getEslintRules = (usageForTypescript?: boolean): Record<string, unknown> => usageForTypescript ? ESLINT_RULES : { ...ESLINT_RULES, ...ESLINT_RULES_TS_EXTENDED };
 

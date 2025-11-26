@@ -1,6 +1,6 @@
 /**
+ * Preset rules for Angular templates
  * @readonly
- * @description Preset rules for Angular templates
  *
  * @author Simon Kovtyk
  * @since 1.0.0

@@ -1,9 +1,10 @@
 /**
+ * CSS preset rules for Stylelint
  * @readonly
- * @description CSS preset rules for Stylelint
  * @remarks Use it inside CSS or CSS-Preprocessor code bases
  *
  * @since 1.0.0
+ * @author Simon Kovtyk
  */
 const STYLELINT_RULES: Record<string, unknown> = {
 	"declaration-block-no-duplicate-custom-properties": true,

@@ -1,9 +1,10 @@
 /**
+ * SCSS preset rules for Stylelint
  * @readonly
- * @description SCSS preset rules for Stylelint
  * @remarks Don't use it inside CSS-only code bases
  *
  * @since 1.0.0
+ * @author Simon Kovtyk
  */
 const STYLELINT_SCSS_RULES: Record<string, unknown> = {
 	"scss/at-rule-no-unknown": true,

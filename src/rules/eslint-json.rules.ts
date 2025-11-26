@@ -1,6 +1,6 @@
 /**
+ * Preset rules for ESLint JSON
  * @readonly
- * @description Preset rules for ESLint JSON
  *
  * @since 1.0.0
  */
