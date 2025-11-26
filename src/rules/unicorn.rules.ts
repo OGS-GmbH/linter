@@ -1,3 +1,9 @@
+/**
+ * @readonly
+ * @description Unicorn preset rules for ESLint
+ *
+ * @since 1.0.0
+ */
 const UNICORN_RULES: Record<string, unknown> = {
   "@unicorn/consistent-empty-array-spread": "error",
   "@unicorn/consistent-existence-index-check": "error",

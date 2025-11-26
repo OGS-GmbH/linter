@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: "Guide", link: "/guide" },
       { text: "Reference", link: "/reference" },
-      { text: "GitHub", link: "https://github.com/OGS-GmbH/linter" },
+      { text: "GitHub", link: "https://github.com/OGS-GmbH/linter" }
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/OGS-GmbH" },
@@ -26,7 +26,19 @@ export default defineConfig({
         text: "Guide",
         items: [
           { text: "Getting started", link: "/guide/" },
-          { text: "Supported linters", link: "/guide/supported-linters" }
+          { text: "Linters", link: "/guide/linters" },
+          { text: "Rules", link: "/guide/rules" },
+          { text: "Setup", items: [
+            { text: "JavaScript", link: "/guide/setup/javascript" },
+            { text: "TypeScript", link: "/guide/setup/typescript" },
+            { text: "Node.js", link: "/guide/setup/node-js" },
+            { text: "Angular", link: "/guide/setup/angular" },
+            { text: "Markdown", link: "/guide/setup/markdown" },
+            { text: "JSON", link: "/guide/setup/json" },
+            { text: "CSS", link: "/guide/setup/css" },
+            { text: "SCSS", link: "/guide/setup/scss" }
+          ] },
+          { text: "Add/Override rules", link: "/guide/add-or-override-rules" },
         ]
       },
       {
