@@ -1,3 +1,10 @@
+/**
+ * JavaScript preset rules for ESLint
+ * @readonly
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ */
 const ESLINT_RULES: Record<string, unknown> = {
   "array-callback-return": [ "error", {
     "allowImplicit": true,
@@ -171,6 +178,14 @@ const ESLINT_RULES: Record<string, unknown> = {
   "yoda": "error"
 };
 
+/**
+ * JavaScript preset rules for ESLint, that will be overridden by typescript-eslint
+ * @readonly
+ * @remarks Do not use in TypeScript code bases
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ */
 const ESLINT_RULES_TS_EXTENDED: Record<string, unknown> = {
   "class-methods-use-this": "error",
   "default-param-last": "error",
@@ -212,6 +227,14 @@ const ESLINT_RULES_TS_EXTENDED: Record<string, unknown> = {
   "no-return-await": "error"
 };
 
+/**
+ * Get ESLint rules based on filters
+ * @param usageForTypescript - Whether the rules will be used for linting TypeScript or not
+ * @returns Preset of ESLint rules
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ */
 const getEslintRules = (usageForTypescript?: boolean): Record<string, unknown> => usageForTypescript ? ESLINT_RULES : { ...ESLINT_RULES, ...ESLINT_RULES_TS_EXTENDED };
 
 export {

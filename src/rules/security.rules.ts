@@ -1,3 +1,11 @@
+/**
+ * Security preset rules for ESLint
+ * @readonly
+ * @remarks Only use it inside Node.js code bases
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ */
 const SECURITY_RULES: Record<string, unknown> = {
   "@security/detect-bidi-characters": "error",
   "@security/detect-buffer-noassert": "error",

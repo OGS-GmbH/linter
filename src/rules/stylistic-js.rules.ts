@@ -1,3 +1,10 @@
+/**
+ * Stylistic (js) preset rules for ESLint
+ * @readonly
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ */
 const STYLISTIC_JS_RULES: Record<string, unknown> = {
   "@stylistic/js/array-bracket-newline": [ "error", "consistent" ],
   "@stylistic/js/array-bracket-spacing": [ "error", "always", {
@@ -74,6 +81,14 @@ const STYLISTIC_JS_RULES: Record<string, unknown> = {
   "@stylistic/js/yield-star-spacing": [ "error", "both" ]
 }
 
+/**
+ * Stylistic (js) preset rules for ESLint
+ * @readonly
+ * @remarks Don't use it in TypeScript code bases
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ */
 const STYLISTIC_JS_RULES_TS_EXTENDED: Record<string, unknown> = {
   "@stylistic/js/block-spacing": [ "error", "always" ],
   "@stylistic/js/brace-style": "error",
@@ -189,6 +204,14 @@ const STYLISTIC_JS_RULES_TS_EXTENDED: Record<string, unknown> = {
   "@stylistic/js/space-infix-ops": "error"
 };
 
+/**
+ * Get Stylistic (js) rules based on filters
+ * @param usageForTypescript - Whether the rules will be used for linting TypeScript or not
+ * @returns Preset of Stylistic (js) rules
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ */
 const getStylisticJsRules = (usageForTypescript?: boolean): Record<string, unknown> => usageForTypescript ? STYLISTIC_JS_RULES : { ...STYLISTIC_JS_RULES, ...STYLISTIC_JS_RULES_TS_EXTENDED };
 
 export {

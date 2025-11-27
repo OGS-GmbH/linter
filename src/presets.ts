@@ -9,6 +9,11 @@ import { ANGULAR_TEMPLATE_RULES, getAngularRules, STYLELINT_RULES, STYLELINT_SCS
 import { Options } from "./types/anguler-rules.type";
 import { JSDOC_RULES, JSDOC_RULES_TS_EXCLUDED, JSDOC_RULES_TS_INCLUDED } from "./rules/jsdoc.rules";
 
+/**
+ * JavaScript preset rules for ESLint
+ *
+ * @category 
+ */
 const JS_RULES_PRESET: Record<string, unknown> = {
   ...ESLINT_RULES,
   ...ESLINT_RULES_TS_EXTENDED,
@@ -48,6 +53,10 @@ const ANGULAR_TEMPLATE_RULES_PRESET: Record<string, unknown> = {
   ...ANGULAR_TEMPLATE_RULES
 };
 
+const CSS_RULES_PRESET: Record<string, unknown> = {
+  ...STYLELINT_RULES
+}
+
 const SCSS_RULES_PRESET: Record<string, unknown> = {
   ...STYLELINT_RULES,
   ...STYLELINT_SCSS_RULES
@@ -66,6 +75,7 @@ const JSDOC_JS_RULES_PRESET: Record<string, unknown> = {
 export {
   TS_RULES_PRESET,
   JS_RULES_PRESET,
+  CSS_RULES_PRESET,
   SCSS_RULES_PRESET,
   NODE_JS_RULES_PRESET,
   NODE_TS_RULES_PRESET,
