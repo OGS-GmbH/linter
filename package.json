@@ -124,12 +124,12 @@
   },
   "scripts": {
     "ci:build:main:production": "node .esbuild/build.mjs",
-    "ci:vitepress:main:typedoc": "typedoc && bash ./prepare-typedoc.sh",
     "ci:pr:lint:main:eslint": "eslint .",
     "ci:pr:commitlint:main:commitlint": "commitlint",
+    "ci:docs:extract:typedoc": "typedoc && bash ./prepare-typedoc.sh",
+    "ci:docs:main:vitepress": "vitepress build .vitepress",
     "prepare": "husky",
-    "vitepress:dev": "vitepress dev .vitepress",
-    "vitepress:build": "vitepress build .vitepress",
-    "vitepress:preview": "vitepress preview .vitepress"
+    "vitepress": "vitepress dev .vitepress",
+    "vitepress-preview": "vitepress preview .vitepress"
   }
 }
