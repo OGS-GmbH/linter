@@ -1,5 +1,6 @@
 /**
  * Preset rules for Angular templates
+ * @category Rules
  * @readonly
  *
  * @author Simon Kovtyk

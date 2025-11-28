@@ -1,5 +1,6 @@
 /**
  * Options for Angular-specific linting rules
+ * @category Types
  *
  * @since 1.0.0
  * @author Simon Kovtyk

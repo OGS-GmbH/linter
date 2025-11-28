@@ -1,5 +1,6 @@
 /**
  * Preset rules for ESLint Markdown
+ * @category Rules
  * @readonly
  *
  * @since 1.0.0

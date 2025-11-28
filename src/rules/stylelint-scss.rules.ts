@@ -1,5 +1,6 @@
 /**
  * SCSS preset rules for Stylelint
+ * @category Rules
  * @readonly
  * @remarks Don't use it inside CSS-only code bases
  *

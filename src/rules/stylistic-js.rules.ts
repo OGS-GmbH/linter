@@ -1,5 +1,6 @@
 /**
  * Stylistic (js) preset rules for ESLint
+ * @category Rules
  * @readonly
  *
  * @since 1.0.0
@@ -83,6 +84,7 @@ const STYLISTIC_JS_RULES: Record<string, unknown> = {
 
 /**
  * Stylistic (js) preset rules for ESLint
+ * @category Rules
  * @readonly
  * @remarks Don't use it in TypeScript code bases
  *
@@ -206,6 +208,7 @@ const STYLISTIC_JS_RULES_TS_EXTENDED: Record<string, unknown> = {
 
 /**
  * Get Stylistic (js) rules based on filters
+ * @category Rules
  * @param usageForTypescript - Whether the rules will be used for linting TypeScript or not
  * @returns Preset of Stylistic (js) rules
  *

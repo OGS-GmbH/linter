@@ -1,5 +1,6 @@
 /**
  * typescript-eslint preset rules for ESLint
+ * @category Rules
  * @readonly
  *
  * @since 1.0.0

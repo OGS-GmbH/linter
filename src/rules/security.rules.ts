@@ -1,5 +1,6 @@
 /**
  * Security preset rules for ESLint
+ * @category Rules
  * @readonly
  * @remarks Only use it inside Node.js code bases
  *

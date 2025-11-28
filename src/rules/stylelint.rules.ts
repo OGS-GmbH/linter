@@ -1,5 +1,6 @@
 /**
  * CSS preset rules for Stylelint
+ * @category Rules
  * @readonly
  * @remarks Use it inside CSS or CSS-Preprocessor code bases
  *

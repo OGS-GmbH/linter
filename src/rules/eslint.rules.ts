@@ -1,5 +1,6 @@
 /**
  * JavaScript preset rules for ESLint
+ * @category Rules
  * @readonly
  *
  * @since 1.0.0
@@ -180,6 +181,7 @@ const ESLINT_RULES: Record<string, unknown> = {
 
 /**
  * JavaScript preset rules for ESLint, that will be overridden by typescript-eslint
+ * @category Rules
  * @readonly
  * @remarks Do not use in TypeScript code bases
  *
@@ -229,6 +231,7 @@ const ESLINT_RULES_TS_EXTENDED: Record<string, unknown> = {
 
 /**
  * Get ESLint rules based on filters
+ * @category Rules
  * @param usageForTypescript - Whether the rules will be used for linting TypeScript or not
  * @returns Preset of ESLint rules
  *

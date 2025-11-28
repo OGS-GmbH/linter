@@ -2,6 +2,7 @@ import { Options } from "../types/anguler-rules.type";
 
 /**
  * Get Angular rules based on filters
+ * @category Rules
  * @param options - Options like selectorPrefix, that could change in different projects
  * @returns Preset of Angular rules
  *
