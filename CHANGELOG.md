@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.3](https://github.com/OGS-GmbH/linter/compare/v1.5.2...v1.5.3) (2025-12-03)
+
+
+### Bug Fixes
+
+* **docs:** improve references ([9593379](https://github.com/OGS-GmbH/linter/commit/9593379b75e8e7a7462757381ec53bc28f74ae50))
+
 ## [1.5.2](https://github.com/OGS-GmbH/linter/compare/v1.5.1...v1.5.2) (2025-11-27)
 
 
