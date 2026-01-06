@@ -7,7 +7,11 @@ export default defineConfig({
   description: "This repository contains custom linter rules to ensure consistent and clean code. Optimized for developers who prioritize quality and best practices.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "https://raw.githubusercontent.com/OGS-GmbH/.github/refs/heads/main/docs/logo-white.svg",
+    logo: {
+					light: "https://raw.githubusercontent.com/OGS-GmbH/.github/refs/heads/main/docs/assets/ogs-logo-dark.svg",
+					dark: "https://raw.githubusercontent.com/OGS-GmbH/.github/refs/heads/main/docs/assets/ogs-logo-light.svg",
+					alt: "Logo of the OGS-GmbH"
+				},
     nav: [
       { text: "Guide", link: "/guide" },
       { text: "Reference", link: "/reference" },
@@ -64,7 +68,8 @@ export default defineConfig({
     ]
   },
   head: [
-    [ "link", { rel: "icon", href: "https://www.ogs.de/favicon.ico" } ]
+    [ "link", { rel: "icon", href: "https://raw.githubusercontent.com/OGS-GmbH/.github/refs/heads/main/docs/assets/ogs-logo-icon.svg", sizes: "any"} ],
+				[ "link", { rel: "icon", href: "https://raw.githubusercontent.com/OGS-GmbH/.github/refs/heads/main/docs/assets/ogs-logo-icon.ico"} ]
   ],
   base: "/linter/",
   srcDir: "../dist/typedoc",
