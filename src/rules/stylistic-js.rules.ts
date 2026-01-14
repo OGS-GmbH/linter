@@ -198,7 +198,7 @@ const STYLISTIC_JS_RULES_TS_EXTENDED: Record<string, unknown> = {
   "@stylistic/js/quotes": [ "error", "double", {
     "avoidEscape": false,
     "allowTemplateLiterals": true,
-    "ignoreStringLiterals": true
+    "ignoreStringLiterals": false
   } ],
   "@stylistic/js/semi": [ "error", "always" ],
   "@stylistic/js/space-before-blocks": [ "error", "always" ],

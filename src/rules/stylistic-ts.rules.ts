@@ -132,7 +132,7 @@ const STYLISTIC_TS_RULES: Record<string, unknown> = {
   "@stylistic/ts/quotes": [ "error", "double", {
     "avoidEscape": false,
     "allowTemplateLiterals": true,
-    "ignoreStringLiterals": true
+    "ignoreStringLiterals": false
   } ],
   "@stylistic/ts/semi": [ "error", "always" ],
   "@stylistic/ts/space-before-blocks": [ "error", "always" ],
