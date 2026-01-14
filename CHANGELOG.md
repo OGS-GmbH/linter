@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/OGS-GmbH/linter/compare/v1.6.0...v1.6.1) (2026-01-14)
+
+
+### Bug Fixes
+
+* **quotes:** enforce quotes on string literals ([#31](https://github.com/OGS-GmbH/linter/issues/31)) ([beefff3](https://github.com/OGS-GmbH/linter/commit/beefff3c0dd93daf59f7ebfd36b9995630a1316a))
+
 ## [1.6.0](https://github.com/OGS-GmbH/linter/compare/v1.5.2...v1.6.0) (2026-01-06)
 
 
