@@ -3,8 +3,8 @@ layout: home
 isHome: true
 
 hero:
-  text: Lint everything
-  tagline: Supports Angular, TypeScript, SCSS and everything for your next enterprise project.
+  text: Enforce Code-Style
+  tagline: Linter rules to enforce consistent, high-quality code across projects.
   actions:
     - theme: brand
       text: Get started
