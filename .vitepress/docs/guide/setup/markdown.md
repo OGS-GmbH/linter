@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Setup Markdown
 
 ## 1. Add dependencies
@@ -8,7 +13,7 @@ To get started, add the following dependencies your `devDependencies` in the `pa
 {
   "devDependencies": {
     "eslint": "^9",
-    "@eslint/markdown": "^6"
+    "@eslint/markdown": "^7"
   }
 }
 ```
@@ -33,7 +38,6 @@ When enabling our linter rules, make sure to use the correct syntax for the conf
 
 :::
 
-
 ```javascript [eslint.config.mjs]
 import {
   ESLINT_MARKDOWN_RULES  
@@ -44,12 +48,16 @@ import eslintMarkdown from "@eslint/markdown";
 export default defineConfig(
   {
     plugins: {
-      "@markdown": eslintMarkdown,
+      "@markdown": eslintMarkdown
     }
   },
   {
     files: [ "**/*.md" ],
-    rules: ESLINT_MARKDOWN_RULES
+    rules: ESLINT_MARKDOWN_RULES,
+    language: "@markdown/gfm",
+    languageOptions: {
+      frontmatter: "yaml" // Or pass `"toml"` or `"json"` to enable TOML or JSON front matter parsing.
+    }
   }
 );
 ```

@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Setup SCSS
 
 ## 1. Add dependencies
@@ -7,8 +12,8 @@ To get started, add the following dependencies your `devDependencies` in the `pa
 ```json [package.json]
 {
   "devDependencies": {
-    "stylelint": "^16",
-    "stylelint-scss": "^6"
+    "stylelint": "^17",
+    "stylelint-scss": "^7"
   }
 }
 ```
@@ -24,7 +29,6 @@ If you are facing issues while integrating Stylelint, consult [Stylelint docs](h
 When enabling our linter rules, make sure to use the correct syntax for the configuration file. We provide an example in ECMAScript JavaScript (`.mjs`) as it is the de facto standard.
 
 :::
-
 
 ```javascript [stylelint.config.mjs]
 import {

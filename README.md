@@ -10,13 +10,16 @@
 <a href="https://github.com/OGS-GmbH/linter/actions/workflows/main-deploy.yml" target="_blank"><img src="https://img.shields.io/github/actions/workflow/status/OGS-GmbH/linter/main-deploy.yml?color=0f434e&logo=rocket&logoColor=000000&labelColor=ffffff" /></a>
 <a href="https://www.npmjs.com/package/@ogs-gmbh/linter" target="_blank"><img src="https://img.shields.io/npm/v/%40ogs-gmbh%2Flinter?color=0f434e&logo=npm&logoColor=000000&labelColor=ffffff" /></a>
 
-- **Strict Preconfigured Rule Set**\
+- **Easy to Set Up**\
+  Simple configuration lets you start linting quickly without complex setup.
+
+- **Strict Rules**\
   Enforces a highly opinionated and rigorous set of rules designed to maximize correctness, consistency, and long-term maintainability.
 
-- **Multi-Domain Language Coverage**\
+- **Supports Multiple Languages**\
   Provides unified linting across Package.json, TypeScript, JavaScript, JSDoc, Markdown, JSON, Angular, and Angular HTML templates.
 
-- **Deterministic and Reproducible Diagnostics**\
+- **Consistent Results**\
   Guarantees stable, repeatable linting results suitable for automated enforcement in CI environments.
 
 ## Getting Started

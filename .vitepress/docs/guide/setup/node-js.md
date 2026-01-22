@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Setup Node.js
 
 ## 1. Integrate JavaScript or TypeScript
@@ -40,7 +45,7 @@ export default defineConfig(
     files: [ "**/*.ts" ],
     languageOptions: {
       parser: tseslint.parser,
-      globals: { ...globals.browser },
+      globals: globals.node,
       parserOptions: {
         projectService: true,
         tsconfigRootDir: import.meta.dirname

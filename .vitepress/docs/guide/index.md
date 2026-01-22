@@ -1,11 +1,13 @@
+---
+prev: false
+next: false
+---
+
 # Getting started
 
-## Installation
-
-### Prerequisites
+### Installation
 
 - Node.js version 18 or higher.
-- One of many of the supported linters
 - A package manager: e.g. npm, pnpm, ...
 
 ::: code-group
@@ -27,8 +29,6 @@ $ bun add -D @ogs-gmbh/linter
 ```
 
 :::
-
-The linter gets configured after the command has been run successfully.
 
 ### Configure
 

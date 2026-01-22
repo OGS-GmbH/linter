@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Rules
 
 This package supports following pre-configured rulesets:

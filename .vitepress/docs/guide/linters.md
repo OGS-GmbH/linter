@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Linters
 
 This package supports following linters:

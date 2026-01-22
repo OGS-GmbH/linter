@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Setup CSS
 
 ## 1. Add dependencies
@@ -23,7 +28,6 @@ If you are facing issues while integrating Stylelint, consult [Stylelint docs](h
 When enabling our linter rules, make sure to use the correct syntax for the configuration file. We provide an example in ECMAScript JavaScript (`.mjs`) as it is the de facto standard.
 
 :::
-
 
 ```javascript [stylelint.config.mjs]
 import {

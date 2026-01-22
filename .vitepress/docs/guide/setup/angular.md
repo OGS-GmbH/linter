@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Setup Angular
 
 ## 1. Add dependencies
@@ -39,7 +44,6 @@ If you are facing issues while integrating ESLint, consult [ESLint docs](https:/
 When enabling our linter rules, make sure to use the correct syntax for the configuration file. We provide an example in ECMAScript JavaScript (`.mjs`) as it is the de facto standard.
 
 :::
-
 
 ```javascript [eslint.config.mjs]
 import {
