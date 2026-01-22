@@ -1,13 +1,10 @@
 import { ESLINT_RULES, ESLINT_RULES_TS_EXTENDED } from "./rules/eslint.rules";
 import { TSESLINT_RULES } from "./rules/tseslint.rules";
-import { STYLISTIC_JS_RULES, STYLISTIC_JS_RULES_TS_EXTENDED } from "./rules/stylistic-js.rules";
-import { STYLISTIC_TS_RULES } from "./rules/stylistic-ts.rules";
-import { STYLISTIC_ADDITIONAL_RULES, STYLISTIC_ADDITIONAL_RULES_TS_INCLUDED } from "./rules/stylistic-additional.rules";
 import { UNICORN_RULES } from "./rules/unicorn.rules";
 import { SECURITY_RULES } from "./rules/security.rules";
-import { ANGULAR_TEMPLATE_RULES, getAngularRules, STYLELINT_RULES, STYLELINT_SCSS_RULES } from "./public-api";
+import { ANGULAR_TEMPLATE_RULES, getAngularRules, STYLELINT_RULES, STYLELINT_SCSS_RULES, STYLISTIC_RULES } from "./public-api";
 import { Options } from "./types/anguler-rules.type";
-import { JSDOC_RULES, JSDOC_RULES_TS_EXCLUDED, JSDOC_RULES_TS_INCLUDED } from "./rules/jsdoc.rules";
+import { JSDOC_RULES } from "./rules/jsdoc.rules";
 
 /**
  * JavaScript preset rules for ESLint
@@ -21,9 +18,8 @@ import { JSDOC_RULES, JSDOC_RULES_TS_EXCLUDED, JSDOC_RULES_TS_INCLUDED } from ".
 const JS_RULES_PRESET: Record<string, unknown> = {
   ...ESLINT_RULES,
   ...ESLINT_RULES_TS_EXTENDED,
-  ...STYLISTIC_JS_RULES,
-  ...STYLISTIC_JS_RULES_TS_EXTENDED,
-  ...STYLISTIC_ADDITIONAL_RULES,
+  ...STYLISTIC_RULES,
+  ...JSDOC_RULES,
   ...UNICORN_RULES,
 };
 
@@ -53,10 +49,8 @@ const NODE_JS_RULES_PRESET: Record<string, unknown> = {
 const TS_RULES_PRESET: Record<string, unknown> = {
   ...ESLINT_RULES,
   ...TSESLINT_RULES,
-  ...STYLISTIC_JS_RULES,
-  ...STYLISTIC_TS_RULES,
-  ...STYLISTIC_ADDITIONAL_RULES,
-  ...STYLISTIC_ADDITIONAL_RULES_TS_INCLUDED,
+  ...STYLISTIC_RULES,
+  ...JSDOC_RULES,
   ...UNICORN_RULES,
 };
 
@@ -130,32 +124,6 @@ const SCSS_RULES_PRESET: Record<string, unknown> = {
   ...STYLELINT_SCSS_RULES
 }
 
-/**
- * JSDoc/TypeScript preset rules for ESLint
- * @category Presets
- * @readonly
- *
- * @since 1.0.0
- * @author Simon Kovtyk
- */
-const JSDOC_TS_RULES_PRESET: Record<string, unknown> = {
-  ...JSDOC_RULES,
-  ...JSDOC_RULES_TS_INCLUDED
-}
-
-/**
- * JSDoc/JavaScript preset rules for ESLint
- * @category Presets
- * @readonly
- *
- * @since 1.0.0
- * @author Simon Kovtyk
- */
-const JSDOC_JS_RULES_PRESET: Record<string, unknown> = {
-  ...JSDOC_RULES,
-  ...JSDOC_RULES_TS_EXCLUDED
-}
-
 export {
   TS_RULES_PRESET,
   JS_RULES_PRESET,
@@ -164,7 +132,5 @@ export {
   NODE_JS_RULES_PRESET,
   NODE_TS_RULES_PRESET,
   getAngularTsPreset,
-  ANGULAR_TEMPLATE_RULES_PRESET,
-  JSDOC_JS_RULES_PRESET,
-  JSDOC_TS_RULES_PRESET
+  ANGULAR_TEMPLATE_RULES_PRESET
 };

@@ -1,6 +1,11 @@
 {
   "rules": {
     "require-author": "error",
+    "require-bugs": "error",
+    "require-contributors": "error",
+    "require-description": "error",
+    "require-keywords": "error",
+    "require-license": "error",
     "require-homepage": "error",
     "require-name": "error",
     "require-repository": "error",
@@ -30,10 +35,25 @@
     "scripts-type": "error",
     "type-type": "error",
     "version-type": "error",
+    "valid-values-name-scope": [ "error", [
+      "@ogs-gmbh"
+    ] ],
+    "valid-values-author": [ "error", [
+      "OGS GmbH"
+    ] ],
+    "valid-values-license": [ "error", [
+      "MIT"
+    ] ],
     "no-repeated-dependencies": "error",
     "no-file-dependencies": "error",
     "no-git-dependencies": "error",
+    "no-file-devDependencies": "error",
+    "no-git-devDependencies": "error",
     "prefer-alphabetical-scripts": "error",
+    "description-format": [ "error", {
+      "requireCapitalFirstLetter": true,
+      "requireEndingPeriod": true
+    } ],
     "name-format": "error",
     "version-format": "error",
     "prefer-property-order": [ "error", [
@@ -91,14 +111,7 @@
       "publishConfig",
       "workspaces"
     ] ],
-    "require-bugs": "error",
-    "require-contributors": "error",
-    "require-description": "error",
-    "require-keywords": "error",
-    "require-license": "error",
-    "valid-values-name-scope": [ "error", [
-        "@ogs-gmbh"
-    ] ]
+    "no-duplicate-properties": "error"
   }
 }
 
