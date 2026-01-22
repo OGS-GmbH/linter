@@ -1,21 +1,35 @@
 import { defineConfig } from 'vitepress'
 import { groupIconMdPlugin, groupIconVitePlugin } from "vitepress-plugin-group-icons"
+import packageJson from "../../package.json";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true,
   title: "Linter",
   description: "This repository contains custom linter rules to ensure consistent and clean code. Optimized for developers who prioritize quality and best practices.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    externalLinkIcon: true,
+    search: {
+      provider: "local"
+    },
     logo: {
-					light: "https://raw.githubusercontent.com/OGS-GmbH/.github/refs/heads/main/docs/assets/ogs-logo-dark.svg",
-					dark: "https://raw.githubusercontent.com/OGS-GmbH/.github/refs/heads/main/docs/assets/ogs-logo-light.svg",
-					alt: "Logo of the OGS-GmbH"
-				},
+      light: "https://raw.githubusercontent.com/OGS-GmbH/.github/refs/tags/v1.0.0/docs/assets/logo/dark.svg",
+      dark: "https://raw.githubusercontent.com/OGS-GmbH/.github/refs/tags/v1.0.0/docs/assets/logo/light.svg",
+      alt: "OGS GmbH Logo"
+    },
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: 'Copyright © 2026 — present <a target="_blank" href="https://www.ogs.de/en/">OGS GmbH</a>'
+    },
     nav: [
       { text: "Guide", link: "/guide" },
       { text: "Reference", link: "/reference" },
-      { text: "GitHub", link: "https://github.com/OGS-GmbH/linter" }
+      { text: packageJson.version, items: [
+        { text: "Repository", link: "https://github.com/OGS-GmbH/linter" },
+        { text: "Changelog", link: "https://github.com/OGS-GmbH/linter/blob/main/CHANGELOG.md" },
+        { text: "Contributing", link: "http://localhost:5173/linter/other/contributing" },
+      ] }
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/OGS-GmbH" },
