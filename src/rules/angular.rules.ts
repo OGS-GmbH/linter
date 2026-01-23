@@ -33,7 +33,14 @@ const getAngularRules = (options: Options): Record<string, unknown> => ({
   "@angular/use-component-view-encapsulation": "error",
   "@angular/use-lifecycle-interface": "error",
   "@angular/use-pipe-transform-interface": "error",
-	"@angular/directive-selector": [ "error", { "prefix": options.selectorPrefix, "style": "camelCase" } ],
+	"@angular/directive-selector": [
+    "error",
+    {
+      "type": [  "attribute", "element" ],
+      "prefix": options.selectorPrefix,
+      "style": "camelCase"
+    }
+  ],
 	"@angular/component-selector": [ "error", { "type": "element", "prefix": options.selectorPrefix, "style": "kebab-case" } ],
 });
 

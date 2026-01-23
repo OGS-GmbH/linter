@@ -70,7 +70,7 @@ export default defineConfig(
       "**/*.mts"
     ],
     languageOptions: {
-      parser: tseslint.parser,
+      parser: tseslintPlugin.parser,
       globals: globals.browser,
       parserOptions: {
         projectService: true,

@@ -15,27 +15,6 @@ const JSDOC_RULES: Record<string, unknown> = {
     "checkRestProperty": true
   } ],
   "@jsdoc/check-property-names": "error",
-  "@jsdoc/check-tag-names": [ "error", {
-    "definedTags": [
-      "alpha",
-      "beta",
-      "category",
-      "document",
-      "eventProperty",
-      "expand",
-      "experimental",
-      "group",
-      "import",
-      "include",
-      "label",
-      "primaryExport",
-      "privateRemarks",
-      "remarks",
-      "sealed",
-      "sortStrategy",
-      "useDeclaredType"
-    ]
-  } ],
   "@jsdoc/check-template-names": "error",
   "@jsdoc/check-types": "error",
   "@jsdoc/check-values": "error",
@@ -80,7 +59,6 @@ const JSDOC_RULES: Record<string, unknown> = {
   "@jsdoc/require-returns": [ "error", {
     "enableFixer": true
   } ],
-  "@jsdoc/require-template": "error",
   "@jsdoc/require-template-description": "error",
   "@jsdoc/require-throws": "error",
   "@jsdoc/ts-method-signature-style": [ "error", "method" ],

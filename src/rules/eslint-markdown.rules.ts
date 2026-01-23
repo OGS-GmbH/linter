@@ -16,7 +16,6 @@ const ESLINT_MARKDOWN_RULES: Record<string, unknown> = {
   "@markdown/no-empty-links": "error",
   "@markdown/no-invalid-label-refs": "error",
   "@markdown/no-missing-atx-heading-space": "error",
-  "@markdown/no-missing-label-refs": "error",
   "@markdown/no-missing-link-fragments": "error",
   "@markdown/no-space-in-emphasis": "error",
   "@markdown/no-unused-definitions": "error",
