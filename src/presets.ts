@@ -2,7 +2,7 @@ import { ESLINT_RULES, ESLINT_RULES_TS_EXTENDED } from "./rules/eslint.rules";
 import { TSESLINT_RULES } from "./rules/tseslint.rules";
 import { UNICORN_RULES } from "./rules/unicorn.rules";
 import { SECURITY_RULES } from "./rules/security.rules";
-import { ANGULAR_TEMPLATE_RULES, getAngularRules, STYLELINT_RULES, STYLELINT_SCSS_RULES, STYLISTIC_RULES } from "./public-api";
+import { ANGULAR_TEMPLATE_RULES, getAngularRules, STYLELINT_RULES, STYLELINT_RULES_WITH_SCSS, STYLELINT_RULES_WITHOUT_SCSS, STYLELINT_SCSS_RULES, STYLISTIC_RULES } from "./public-api";
 import { Options } from "./types/anguler-rules.type";
 import { JSDOC_RULES } from "./rules/jsdoc.rules";
 
@@ -107,7 +107,8 @@ const ANGULAR_TEMPLATE_RULES_PRESET: Record<string, unknown> = {
  * @author Simon Kovtyk
  */
 const CSS_RULES_PRESET: Record<string, unknown> = {
-  ...STYLELINT_RULES
+  ...STYLELINT_RULES,
+  ...STYLELINT_RULES_WITHOUT_SCSS
 }
 
 /**
@@ -121,7 +122,8 @@ const CSS_RULES_PRESET: Record<string, unknown> = {
  */
 const SCSS_RULES_PRESET: Record<string, unknown> = {
   ...STYLELINT_RULES,
-  ...STYLELINT_SCSS_RULES
+  ...STYLELINT_SCSS_RULES,
+  ...STYLELINT_RULES_WITH_SCSS
 }
 
 export {

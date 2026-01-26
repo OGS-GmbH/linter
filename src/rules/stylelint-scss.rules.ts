@@ -8,7 +8,7 @@
  * @author Simon Kovtyk
  */
 const STYLELINT_SCSS_RULES: Record<string, unknown> = {
-	"scss/at-rule-no-unknown": true,
+  "scss/at-rule-no-unknown": true,
   "scss/at-else-closing-brace-newline-after": "always-last-in-chain",
   "scss/at-else-closing-brace-space-after": "always-intermediate",
   "scss/at-else-empty-line-before": "never",
