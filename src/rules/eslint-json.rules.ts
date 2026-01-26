@@ -8,7 +8,9 @@
  */
 const ESLINT_JSON_RULES: Record<string, unknown> = {
   "@json/no-duplicate-keys": "error",
-  "@json/no-empty-keys": "error"
+  "@json/no-empty-keys": "error",
+  "@json/no-unnormalized-keys": "error",
+  "@json/no-unsafe-values": "error"
 };
 
 export {

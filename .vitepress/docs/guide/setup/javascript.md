@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Setup JavaScript
 
 ## 1. Add dependencies
@@ -8,11 +13,11 @@ To get started, add the following dependencies your `devDependencies` in the `pa
 {
   "devDependencies": {
     "eslint": "^9",
+    "globals": "^17",
     "@eslint/js": "^9",
-    "eslint-plugin-unicorn": "^56",
-    "@stylistic/eslint-plugin-js": "^2",
-    "@stylistic/eslint-plugin-plus": "^2",
-    "globals": "^15"
+    "@stylistic/eslint-plugin": "^5",
+    "eslint-plugin-jsdoc": "^62",
+    "eslint-plugin-unicorn": "^56"
   }
 }
 ```
@@ -37,25 +42,22 @@ When enabling our linter rules, make sure to use the correct syntax for the conf
 
 :::
 
-
 ```javascript [eslint.config.mjs]
 import {
   JS_RULES_PRESET
 } from "@ogs-gmbh/linter";
 import globals from "globals";
-import stylisticJs from "@stylistic/eslint-plugin-js";
-import stylisticPlus from "@stylistic/eslint-plugin-plus";
+import stylisticPlugin from "@stylistic/eslint-plugin";
+import unicornPlugin from "eslint-plugin-unicorn";
+import jsdocPlugin from "eslint-plugin-jsdoc";
 import { defineConfig } from "eslint/config";
-import unicorn from "eslint-plugin-unicorn";
-import tseslint from "typescript-eslint";
 
 export default defineConfig(
   {
     plugins: {
-      "@tseslint": tseslint.plugin,
-      "@unicorn": unicorn,
-      "@stylistic/js": stylisticJs,
-      "@stylistic/plus": stylisticPlus
+      "@stylistic": stylisticPlugin,
+      "@unicorn": unicornPlugin,
+      "@jsdoc": jsdocPlugin
     }
   },
   {
@@ -65,7 +67,7 @@ export default defineConfig(
       "**/*.mjs"
     ],
     languageOptions: {
-      globals: { ...globals.browser }
+      globals: globals.browser
     },
     rules: JS_RULES_PRESET
   }
