@@ -1,7 +1,7 @@
 {
   "name": "@ogs-gmbh/linter",
   "description": "Linter rules to enforce consistent, high-quality code across projects.",
-  "version": "1.6.1",
+  "version": "2.0.0",
   "author": "OGS GmbH",
   "exports": {
     ".": {

@@ -1,5 +1,35 @@
 # Changelog
 
+## [2.0.0](https://github.com/OGS-GmbH/linter/compare/v1.1.0...v2.0.0) (2026-01-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade for angular 21 compatibility
+
+### Features
+
+* add jsdoc and minor tweaks ([693007f](https://github.com/OGS-GmbH/linter/commit/693007fdd86e263337e5f734c63ee2bcf8f2381b))
+* add new logos to ensure corporate identity ([#30](https://github.com/OGS-GmbH/linter/issues/30)) ([c8c4778](https://github.com/OGS-GmbH/linter/commit/c8c47784822a97cebe6fb483702f11049ab541b8))
+* added various improvements ([5699232](https://github.com/OGS-GmbH/linter/commit/56992320e7838339a13015bf90c598b640cbe510))
+* init ([5699232](https://github.com/OGS-GmbH/linter/commit/56992320e7838339a13015bf90c598b640cbe510))
+
+
+### Bug Fixes
+
+* added package json include ([d8f08e8](https://github.com/OGS-GmbH/linter/commit/d8f08e87b1cb51ed790f06850f1d9065c43b8785))
+* added package json include ([58d911e](https://github.com/OGS-GmbH/linter/commit/58d911ec33af7b80b32227ae54216c749ed7f6dc))
+* **angular-template-rules:** remove rule that is only available from version 20.2.0 onwards ([#24](https://github.com/OGS-GmbH/linter/issues/24)) ([7c573e1](https://github.com/OGS-GmbH/linter/commit/7c573e17a9781b64932abee5cbe39810e27ece07))
+* docs ([3be0a48](https://github.com/OGS-GmbH/linter/commit/3be0a48eb9607f7e2f63d2ac5d7e255abf95271a))
+* **docs:** improve references ([9593379](https://github.com/OGS-GmbH/linter/commit/9593379b75e8e7a7462757381ec53bc28f74ae50))
+* **package-json-lint:** open source package prefix ([1333ce5](https://github.com/OGS-GmbH/linter/commit/1333ce564829b3b4ae0a09f66499dd0a19a1e5ae))
+* **quotes:** enforce quotes on string literals ([#31](https://github.com/OGS-GmbH/linter/issues/31)) ([beefff3](https://github.com/OGS-GmbH/linter/commit/beefff3c0dd93daf59f7ebfd36b9995630a1316a))
+
+
+### Miscellaneous Chores
+
+* upgrade for angular 21 compatibility ([03ce3ab](https://github.com/OGS-GmbH/linter/commit/03ce3aba944be1f2efc6393b24a34994bd07f565))
+
 ## [1.6.1](https://github.com/OGS-GmbH/linter/compare/v1.6.0...v1.6.1) (2026-01-14)
 
 
