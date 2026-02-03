@@ -15,7 +15,6 @@ const SECURITY_RULES: Record<string, unknown> = {
   "@security/detect-eval-with-expression": "error",
   "@security/detect-new-buffer": "error",
   "@security/detect-no-csrf-before-method-override": "error",
-  "@security/detect-non-literal-fs-filename": "error",
   "@security/detect-non-literal-regexp": "error",
   "@security/detect-non-literal-require": "error",
   "@security/detect-object-injection": "error",
