@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.1](https://github.com/OGS-GmbH/linter/compare/v2.0.0...v2.0.1) (2026-02-03)
+
+
+### Bug Fixes
+
+* **eslint-security:** remove detect-non-literal-fs-filename ([eee0c4e](https://github.com/OGS-GmbH/linter/commit/eee0c4e1fc7a1cbb3a9e3e35ecd937a04b00c65e))
+* **stylelint:** make use of scss/css rules ([fc3c46a](https://github.com/OGS-GmbH/linter/commit/fc3c46a4633fde0fb42ecf943036a72880a05b71))
+
 ## [2.0.0](https://github.com/OGS-GmbH/linter/compare/v1.1.0...v2.0.0) (2026-01-26)
 
 
