@@ -8,7 +8,7 @@
  */
 const ANGULAR_TEMPLATE_RULES: Record<string, unknown> = {
 	"@angular-template/no-duplicate-attributes": [ "error", { "allowTwoWayDataBinding": true } ],
-  "@angular-eslint/template/alt-text": "error",
+  "@angular-template/alt-text": "error",
 	"@angular-template/banana-in-box": "error",
 	"@angular-template/eqeqeq": "error",
 	"@angular-template/no-any": "error",
