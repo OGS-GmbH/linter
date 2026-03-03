@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/OGS-GmbH/linter/compare/v2.0.1...v2.0.2) (2026-03-03)
+
+
+### Bug Fixes
+
+* **angular-template-rules:** rename plugin to be matched correctly ([#36](https://github.com/OGS-GmbH/linter/issues/36)) ([b8c045b](https://github.com/OGS-GmbH/linter/commit/b8c045bcde6021fd0661e6bff2d2a02510f7d58c))
+
 ## [2.0.1](https://github.com/OGS-GmbH/linter/compare/v2.0.0...v2.0.1) (2026-02-03)
 
 
