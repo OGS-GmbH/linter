@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/OGS-GmbH/linter/compare/v2.0.2...v2.0.3) (2026-03-18)
+
+
+### Bug Fixes
+
+* remove circular import in preset-file ([#38](https://github.com/OGS-GmbH/linter/issues/38)) ([d29397d](https://github.com/OGS-GmbH/linter/commit/d29397dd50659da098b8283143ebd48072c5439c))
+
 ## [2.0.2](https://github.com/OGS-GmbH/linter/compare/v2.0.1...v2.0.2) (2026-03-03)
 
 
