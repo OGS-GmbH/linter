@@ -2,9 +2,13 @@ import { ESLINT_RULES, ESLINT_RULES_TS_EXTENDED } from "./rules/eslint.rules";
 import { TSESLINT_RULES } from "./rules/tseslint.rules";
 import { UNICORN_RULES } from "./rules/unicorn.rules";
 import { SECURITY_RULES } from "./rules/security.rules";
-import { ANGULAR_TEMPLATE_RULES, getAngularRules, STYLELINT_RULES, STYLELINT_RULES_WITH_SCSS, STYLELINT_RULES_WITHOUT_SCSS, STYLELINT_SCSS_RULES, STYLISTIC_RULES } from "./public-api";
+import { STYLISTIC_RULES } from "./rules/stylistic.rules";
+import { STYLELINT_RULES, STYLELINT_RULES_WITHOUT_SCSS, STYLELINT_RULES_WITH_SCSS  } from "./rules/stylelint.rules";
+import { STYLELINT_SCSS_RULES  } from "./rules/stylelint-scss.rules";
 import { Options } from "./types/anguler-rules.type";
 import { JSDOC_RULES } from "./rules/jsdoc.rules";
+import { getAngularRules } from "./rules/angular.rules";
+import { ANGULAR_TEMPLATE_RULES } from "./rules/angular-template.rules";
 
 /**
  * JavaScript preset rules for ESLint
