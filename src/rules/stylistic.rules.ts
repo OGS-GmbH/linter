@@ -99,7 +99,7 @@ const STYLISTIC_RULES: Record<string, unknown> = {
     "arrow": "parens-new-line",
     "condition": "ignore",
     "logical": "ignore",
-    "props": "ignore",
+    "prop": "ignore",
     "propertyValue": "ignore"
   } ],
   "@stylistic/key-spacing": "error",
