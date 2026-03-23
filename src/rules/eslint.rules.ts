@@ -225,8 +225,7 @@ const ESLINT_RULES_TS_EXTENDED: Record<string, unknown> = {
   "no-useless-constructor": "error",
   "no-throw-literal": "error",
   "prefer-promise-reject-errors": "error",
-  "require-await": "error",
-  "no-return-await": "error"
+  "require-await": "error"
 };
 
 /**
