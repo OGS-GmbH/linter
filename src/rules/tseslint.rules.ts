@@ -113,16 +113,6 @@ const TSESLINT_RULES: Record<string, unknown> = {
   "@tseslint/no-wrapper-object-types": "error",
   "@tseslint/non-nullable-type-assertion-style": "error",
   "@tseslint/only-throw-error": "error",
-  "@tseslint/typedef": [ "error", {
-    "arrayDestructuring": true,
-    "arrowParameter": true,
-    "memberVariableDeclaration": true,
-    "objectDestructuring": true,
-    "parameter": true,
-    "propertyDeclaration": true,
-    "variableDeclaration": true,
-    "variableDeclarationIgnoreFunction": true
-  } ],
   "@tseslint/prefer-as-const": "error",
   "@tseslint/prefer-for-of": "error",
   "@tseslint/prefer-function-type": "error",

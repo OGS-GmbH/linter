@@ -157,7 +157,7 @@ const STYLISTIC_RULES: Record<string, unknown> = {
   } ],
   "@stylistic/quotes": [ "error", "double", {
     "avoidEscape": false,
-    "allowTemplateLiterals": true,
+    "allowTemplateLiterals": "always",
     "ignoreStringLiterals": false
   } ],
   "@stylistic/rest-spread-spacing": [ "error", "never" ],
@@ -189,14 +189,8 @@ const STYLISTIC_RULES: Record<string, unknown> = {
   "@stylistic/template-tag-spacing": "error",
   "@stylistic/type-annotation-spacing": [ "error", {
     "before": false,
-    "after": true,
-    "overrides": {
-      "arrow": {
-        "before": true,
-        "after": true,
-      }
-    }
-  } ],
+    "after": true
+	}],
   "@stylistic/type-generic-spacing": "error",
   "@stylistic/type-named-tuple-spacing": "error",
   "@stylistic/wrap-iife": [ "error", "inside" ],

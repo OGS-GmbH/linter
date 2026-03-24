@@ -26,7 +26,8 @@ const STYLELINT_SCSS_RULES: Record<string, unknown> = {
   "scss/dollar-variable-colon-space-after": "always",
   "scss/dollar-variable-colon-space-before": "never",
   "scss/dollar-variable-empty-line-after": [ "always", {
-    "except": [ "last-nested", "before-dollar-variable", "inside-single-line-block" ]
+			"except": ["last-nested", "before-dollar-variable"],
+			"ignore": ["inside-single-line-block"]
   } ],
   "scss/dollar-variable-empty-line-before": [ "always", {
     "except": ["first-nested", "after-comment", "after-dollar-variable"]
@@ -48,7 +49,7 @@ const STYLELINT_SCSS_RULES: Record<string, unknown> = {
   "scss/dimension-no-non-numeric-values": true,
   "scss/function-calculation-no-interpolation": true,
   "scss/function-no-unknown": true,
-  "scss/map-keys-quotes": true,
+  "scss/map-keys-quotes": "always",
   "scss/operator-no-newline-after": true,
   "scss/operator-no-unspaced": true,
   "scss/property-no-unknown": [ true, {

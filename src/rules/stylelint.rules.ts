@@ -92,7 +92,7 @@ const STYLELINT_RULES: Record<string, unknown> = {
  * @author Simon Kovtyk
  */
 const STYLELINT_RULES_WITH_SCSS: Record<string, unknown> = {
-  "at-rule-no-unknown": false,
+  "at-rule-no-unknown": null,
   "at-rule-empty-line-before": ["always", {
     "ignoreAtRules": [ "else" ]
   }]
