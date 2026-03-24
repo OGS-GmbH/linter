@@ -10,4 +10,4 @@ on:
 
 jobs:
   call-npm-package-pr-commits:
-    uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-pr-commits.yml@v1.0.0
+    uses: OGS-GmbH/reusable-github-actions/.github/workflows/npm-package-pr-commits.yml@v1.2.1
