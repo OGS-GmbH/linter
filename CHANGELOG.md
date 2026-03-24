@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.4](https://github.com/OGS-GmbH/linter/compare/v2.0.3...v2.0.4) (2026-03-24)
+
+
+### Bug Fixes
+
+* remove and change deprectaed rules ([#40](https://github.com/OGS-GmbH/linter/issues/40)) ([5d8c35a](https://github.com/OGS-GmbH/linter/commit/5d8c35aec85d0790f0878c91dc0049b2d58cb98b))
+
 ## [2.0.3](https://github.com/OGS-GmbH/linter/compare/v2.0.2...v2.0.3) (2026-03-18)
 
 
