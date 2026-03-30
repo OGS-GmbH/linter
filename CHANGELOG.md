@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.5](https://github.com/OGS-GmbH/linter/compare/v2.0.4...v2.0.5) (2026-03-30)
+
+
+### Bug Fixes
+
+* **scss-rules:** remove wrongly implemented rule ([#42](https://github.com/OGS-GmbH/linter/issues/42)) ([6801715](https://github.com/OGS-GmbH/linter/commit/6801715735398db42335e9b27b82ed65e65a58e1))
+
 ## [2.0.4](https://github.com/OGS-GmbH/linter/compare/v2.0.3...v2.0.4) (2026-03-24)
 
 
