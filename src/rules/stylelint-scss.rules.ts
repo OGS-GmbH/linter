@@ -20,7 +20,6 @@ const STYLELINT_SCSS_RULES: Record<string, unknown> = {
   "scss/at-mixin-argumentless-call-parentheses": "always",
   "scss/at-mixin-named-arguments": "never",
   "scss/at-mixin-parentheses-space-before": "always",
-  "scss/at-rule-conditional-no-parentheses": false,
   "scss/at-use-no-redundant-alias": true,
   "scss/dollar-variable-colon-newline-after": "always-multi-line",
   "scss/dollar-variable-colon-space-after": "always",
