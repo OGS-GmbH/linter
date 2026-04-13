@@ -60,7 +60,12 @@ const STYLELINT_RULES: Record<string, unknown> = {
   "selector-type-case": "lower",
   "value-keyword-case": "lower",
   "comment-empty-line-before": "always",
-  "declaration-empty-line-before": "always",
+	 "declaration-empty-line-before": [
+			"always",
+			{
+				"except": ["first-nested", "after-comment"],
+				"ignore": ["after-declaration"]
+			}],
   "rule-empty-line-before": "always",
   "number-max-precision": 2,
   "alpha-value-notation": "percentage",
