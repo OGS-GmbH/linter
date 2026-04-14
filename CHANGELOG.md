@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/OGS-GmbH/linter/compare/v2.0.5...v2.1.0) (2026-04-14)
+
+
+### Features
+
+* **stylelint-rules:** change rule implementation ([#44](https://github.com/OGS-GmbH/linter/issues/44)) ([e7b60f1](https://github.com/OGS-GmbH/linter/commit/e7b60f158bac014d7ba88b8a5924839ba2c224ff))
+
 ## [2.0.5](https://github.com/OGS-GmbH/linter/compare/v2.0.4...v2.0.5) (2026-03-30)
 
 
